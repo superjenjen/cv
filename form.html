@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>🖤 Networking Registation Form</title>
+</head>
+
+<body>
+  <h1>Networking Registration Form</h1>
+  <p>
+    Hola peeps! This is me playing around with form elements. </p>
+  <p>
+    The purpose of this Networking Page is for first-time users to sign up to an virtual Networking platform in the aims of connecting with people sharing common interests.</p>
+  <p>Feel free to key in your info.<br>
+    Thank you for your input! 😊</p>
+  <br>
+  <hr>
+  <form class="" action="mailto:jenasummoogum@gmail.com" method="post" enctype="text/plain">
+    <h2>General Information</h2>
+    <table cellspacing="30">
+      <tr>
+        <td><label for="firstname"><strong>First Name: </strong></label></td>
+        <td><input type="text" id="firstname" name="firstname" value="" required></td>
+        <td><label for="lastname"><strong>Last Name: </strong></label></td>
+        <td><input type="text" id="lastname" name="lastname" value="" required></td>
+      </tr>
+
+      <tr>
+        <td><strong>Gender: </strong></td>
+        <td><input type="radio" name="gender" value="male" id="male">
+          <label for="male">Male 👨</label>
+          <input type="radio" name="gender" value="female" id="female">
+          <label for="female">Female 👩</label>
+        </td>
+        <td><label for="maritalstatus"><strong>Marital Status: </strong></label></td>
+        <td><select id="maritalstatus" name="maritalstatus">
+          <option value="single">Single</option>
+          <option value="engaged">Engaged</option>
+          <option value="married">Married</option>
+          <option value="divorced">Divorced</option>
+          <option value="widowed">Widowed</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="dateofbirth"><strong>Date of Birth: </strong></label></td>
+        <td><input type="date" name="dateofbirth" value="dateofbirth" id="dateofbirth"required></td>
+        <td><label for="country"><strong>Country: </strong></label></td>
+        <td><input type="text" name="country" value="" id="country" required></td>
+      </tr>
+      <tr>
+      <td><label for="emailaddress"><strong>Email Address: </strong></label></td>
+      <td><input type="email" name="emailaddress" id="emailaddress" value="" required></td>
+      <td><label for="phone"><strong>Phone Number: </strong></label></td>
+      <td><input type="tel" name="phone" id="phone" value=""></td>
+      </tr>
+    </table>
+    <br>
+    <hr>
+    <h2>Professional Details</h2>
+    <table cellspacing="30">
+      <tr>
+        <td><strong>Qualification: </strong></td>
+        <td><input list="qualification">
+          <datalist id="qualification">
+            <option value="Primary Education">
+<option value="Secondary Education">
+<option value="Diploma Degree">
+<option value="Bachelor's Degree">
+<option value="Master's Degree">
+<option value="Doctorate Degree">
+            <option value="Professional Certificate">
+            <option value="Others">
+          </datalist>
+      </td>
+      <td><label for="jobposition"><strong>Job Position: </strong></label></td>
+        <td><input type="text" name="jobposition" id="jobposition" value=""required></td>
+      </tr>
+      <tr>
+        <td><label for="companyname"><strong>Company Name: </strong></label></td>
+        <td><input type="text" name="companyname" id="companyname" value="" required></td>
+<td><label for="companywebsite"><strong>Company Website: </strong></label></td>
+<td><input type="url" name="companywebsite" id="companywebsite" value=""></td>
+    </tr>
+    </table>
+
+<table cellspacing="30">
+  <tr>
+    <td><strong>Field of Interest: </strong></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="accounting" id="accounting">
+    <label for="accounting">Accounting</label></td>
+    <td><input type="checkbox" name="interest" value="appliedstatistics" id="appliedstatistics">
+    <label for="appliedstatistics">Applied Statistics</label></td>
+    <td><input type="checkbox" name="interest" value="architecture" id="architecture">
+    <label for="architecture">Architecture</label></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="arts" id="arts">
+    <label for="arts">Arts</label></td>
+    <td><input type="checkbox" name="interest" value="businessmanagement" id="businessmanagement">
+    <label for="businessmanagement">Business Management</label></td>
+    <td><input type="checkbox" name="interest" value="economics" id="economics">
+    <label for="economics">Economics</label></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="education" id="education">
+    <label for="education">Education</label></td>
+    <td><input type="checkbox" name="interest" value="engineering" id="engineering">
+    <label for="engineering">Engineering</label></td>
+    <td><input type="checkbox" name="interest" value="finance" id="finance">
+    <label for="finance">Finance</label></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="health" id="health">
+    <label for="health">Health</label></td>
+    <td><input type="checkbox" name="interest" value="humanresources" id="humanresources">
+    <label for="humanresources">Human Resources</label></td>
+    <td><input type="checkbox" name="interest" value="informationtechnology" id="informationtechnology">
+    <label for="informationtechnology">Information Technology</label></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="internationalrelations" id="internationalrelations">
+    <label for="internationalrelations">International Relations</label></td>
+    <td><input type="checkbox" name="interest" value="legal" id="legal">
+    <label for="legal">Legal</label></td>
+    <td><input type="checkbox" name="interest" value="marketing" id="marketing">
+    <label for="marketing">Marketing</label></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="realestate" id="realestate">
+    <label for="realestate">Real Estate</label></td>
+    <td><input type="checkbox" name="interest" value="sales" id="sales">
+    <label for="sales">Sales</label></td>
+    <td><input type="checkbox" name="interest" value="sports" id="sports">
+    <label for="sports">Sports</label></td>
+  </tr>
+</table>
+<br>
+<hr>
+<h2>Your Networking Experience</h2>
+<table cellspacing="30">
+  <tr>
+    <td><strong>How would you define yourself?</strong></td>
+  </tr>
+<tr>
+  <td>
+    <input type="radio" name="personality" value="introvert" id="introvert">
+    <label for="introvert">Introvert</label>
+  </td>
+</tr>
+<tr>
+  <td><input type="radio" name="personality" value="extrovert" id="extrovert">
+  <label for="extrovert">Extrovert</label>
+</td>
+</tr>
+<tr>
+  <td><input type="radio" name="personality" value="ambivert" id="ambivert">
+  <label for="ambivert">Ambivert</label>
+</td>
+</tr>
+
+<tr>
+  <td>If you are not sure, click <a href="https://www.16personalities.com/free-personality-test" target="_blank"><strong>here</strong></a> for a quick personality test to discover yourself 😊</td>
+</tr>
+</table>
+
+<table cellspacing="30">
+  <tr>
+    <td colspan="3"><strong>Whare are your networking preferences</strong></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="networkingpreferences" value="workshop" id="workshop">
+    <label for="workshop">Workshop</label></td>
+    <td><input type="checkbox" name="networkingpreferences" value="conference" id="conference">
+    <label for="conference">Conference</label></td>
+    <td><input type="checkbox" name="networkingpreferences" value="bootcamp" id="bootcamp">
+    <label for="bootcamp">Bootcamp</label></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="networkingpreferences" value="seminar" id="seminar">
+    <label for="seminar">Seminar</label></td>
+    <td><input type="checkbox" name="networkingpreferences" value="competition" id="competition">
+    <label for="competition">Competition</label></td>
+    <td><input type="checkbox" name="networkingpreferences" value="webminar" id="webminar">
+    <label for="webminar">Webminar</label></td>
+  </tr>
+</table>
+<table cellspacing="30">
+  <tr>
+    <td colspan="2"><strong>How would you like to connect with people?</strong></td>
+  </tr>
+
+  <tr>
+    <td><input type="checkbox" name="connectpeople" value="through our page" id="ourpage">
+    <label for="ourpage">Through our page</label></td>
+    <td><input type="checkbox" name="connectpeople" value="by email" id="byemail">
+    <label for="byemail">By email</label></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="connectpeople" value="by phone number" id="byphone">
+    <label for="byphone">By phone number</label></td>
+    <td><input type="checkbox" name="connectpeople" value="face-to-face" id="facetoface">
+    <label for="facetoface">Face-to-face meeting</label></td>
+  </tr>
+  </table>
+  <br>
+  <hr>
+  <h2>Final Step to Set-up your Profile!</h2>
+<table cellspacing="30">
+  <tr>
+    <td><label for="profilepicture"><strong>Upload your profile picture:</strong></label></td>
+<td><input type="file" name="profilepicture" id="profilepicture" value=""></td>
+  </tr>
+</table>
+
+<table cellspacing="30">
+  <tr>
+    <td><label for="username"><strong>Username:</strong></label></td>
+    <td><input type="text" name="username" id="username" value="" required></td>
+  </tr>
+  <tr>
+    <td><label for="profilepassword"><strong>Password:</strong></label></td>
+    <td><input type="password" name="profilepassword" id="profilepassword" value="" required></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <input type="checkbox" name="termsandconditions" value="i agree to the terms and conditions" id="termsandconditions" required>
+      <label for="termsandconditions">I agree to the terms and conditions</label>
+    </td>
+  </tr>
+  <tr>
+    <td><input type="submit" name="" value="Sign Up"></td>
+  </tr>
+</table>
+
+  </form>
+
+
+
+</body>
+
+</html>
